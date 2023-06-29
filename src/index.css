@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/* Webkit (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as needed */
+  height: 10px; /* Adjust the width as needed */
+  margin:10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Transparent track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white; /* White thumb color */
+  border-radius: 10px; /* Rounded thumb */
+}
+
+/* Mozilla Firefox */
+/* Note: Firefox currently only supports the thumb color customization */
+/* You may use the scrollbar-width property for more extensive styling */
+/* See: https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width */
+/* Example: scrollbar-width: thin; */
+
+/* Microsoft Edge and Internet Explorer */
+/* Note: Edge and IE have limited support for scrollbar customization */
+/* The example below applies a white thumb color, but the transparency and rounded appearance may not work */
+/* You may need to test this code in different browsers */
+
+/* Uncomment the code below if you need to target Edge and IE */
+/*
+::-ms-scrollbar {
+  width: 10px; 
+}
+
+::-ms-scrollbar-track {
+  background-color: transparent;
+}
+
+::-ms-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+}
+*/
